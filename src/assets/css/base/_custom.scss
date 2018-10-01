@@ -21,3 +21,11 @@
         z-index:1;
     }
 }
+
+.proleague-hero {
+    background-image: url('../img/hero-mobile.jpg');
+
+    @media(min-width:640px) {
+        background-image:url('../img/hero.jpg');
+    }
+}
